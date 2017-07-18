@@ -13,25 +13,30 @@ import Button from './button';
 
 export default class Home extends Component {
 	props: {
-		rank: number
+		rank: number,
+		navigation: Object
 	};
 
 	static defaultProps = {
-		rank: -1,
+		rank: 0,
 	};
 
-	constructor(props: Object){
-		super(props);
+	static navigationOptions = {
+		title: 'Tim College'
+	};
+
+	next = () => {
+		this.props.navigation.navigate('Personal');
 	}
 
 	render(){
-		return <Wizard rank={this.props.rank}>
+		return <Wizard rank={this.props.rank} navigation={this.props.navigation}>
 			<View style={styles.container}>
 				<Text style={styles.splashText}> 
 					TIM College is an app that will help you make your path to university.  
 					Going to university is going to expand your knowledge and give you better chances of landing a great job.
 				</Text>
-				<Button title="Next" onPress={()=>{console.log('navigate to next step')}} />
+				<Button title="Next" onPress={this.next} />
 			</View>
 		</Wizard>
 	}

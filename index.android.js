@@ -9,16 +9,19 @@ import {
   Text,
   View
 } from 'react-native';
+import {
+  StackNavigator
+} from 'react-navigation';
 
 import Home from './components/home';
+import Personal from './components/personal';
+import Requirements from './components/requirements';
 
 
-export default class TimCollege extends Component {
-  render() {
-    return (
-      <Home />
-    );
-  }
-}
+const App = StackNavigator({
+  Home: {screen: Home},
+  Personal: {screen: Personal},
+  Requirements: {screen: Requirements},
+});
 
-AppRegistry.registerComponent('TimCollege', () => TimCollege);
+AppRegistry.registerComponent('TimCollege', () => App);

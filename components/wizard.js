@@ -2,10 +2,13 @@
 
 import React, { Component } from 'react';
 import {
+  ScrollView,
   StyleSheet,
   Text,
   View
 } from 'react-native';
+import type { StyleObj } from 'react-native/Libraries/StyleSheet/StyleSheetTypes';
+import {CardStack} from 'react-navigation';
 
 import {FlatButton as Button} from './button';
 import Theme from './theme';
@@ -21,12 +24,15 @@ export default class Wizard extends Component {
 		steps: Array<Object>,
 		rank: number,
 		navigation: Object,
+		style?: StyleObj,
 		children: React$Element<*>
 	};
 
+	navigationFuncs: Array<Function | null>;
+
 	static defaultProps = {
 		steps: [
-			{},
+			{id: 'Home'},
 			{id: 'Personal', label: 'Personal information'},
 			{id: 'Requirements', label: 'Admission requirements'},
 			{id: 'Result', label: 'Find programs'},
@@ -53,11 +59,9 @@ export default class Wizard extends Component {
 		
 	}
 
-	navigate(screenName: string, props?: Object){
-		this.props.navigation.navigate(screenName, props);
+	navigate(screenName: string, params?: Object){
+		this.props.navigation.navigate(screenName, params);
 	}
-
-
 
 	renderNavPills(){
 		let nextIndex = this.props.rank + 1;
@@ -73,12 +77,12 @@ export default class Wizard extends Component {
 	}
 
 	render(){
-		return <View style={styles.container}>
+		return <ScrollView contentContainerStyle={[styles.container, this.props.style]}>
 			<View style={styles.body}>
 				{this.props.children}
 			</View>
 			{this.renderNavPills()}
-		</View>
+		</ScrollView>
 	}
 }
 
@@ -97,6 +101,8 @@ const styles = StyleSheet.create({
 	},
 	body: {
 		flex: 2,
+		flexDirection: 'column',
+		justifyContent: 'space-around',
 		padding: 12,
 		paddingTop: 16,
 	},

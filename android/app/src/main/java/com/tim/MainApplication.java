@@ -21,10 +21,21 @@ public class MainApplication extends Application implements ReactApplication {
       return BuildConfig.DEBUG;
     }
 
+    // Override the getJSBundleFile method in order to let
+    // the CodePush runtime determine where to get the JS
+    // bundle location from on each app start
     @Override
+    protected String getJSBundleFile() {
+      return CodePush.getJSBundleFile();
+    }
+
     protected List<ReactPackage> getPackages() {
+      // Instantiate an instance of the CodePush runtime and add it to the list of
+      // existing packages, specifying the right deployment key. If you don't already
+      // have it, you can run "code-push deployment ls <appName> -k" to retrieve your key.
       return Arrays.<ReactPackage>asList(
-          new MainReactPackage()
+              new MainReactPackage(),
+              new CodePush("deployment-key-here", MainApplication.this, BuildConfig.DEBUG)
       );
     }
   };
@@ -40,23 +51,5 @@ public class MainApplication extends Application implements ReactApplication {
     SoLoader.init(this, /* native exopackage */ false);
   }
 
-  // Override the getJSBundleFile method in order to let
-  // the CodePush runtime determine where to get the JS
-  // bundle location from on each app start
-  @Override
-  protected String getJSBundleFile() {
-    return CodePush.getJSBundleFile();
-  }
-
-  @Override
-  protected List<ReactPackage> getPackages() {
-    // Instantiate an instance of the CodePush runtime and add it to the list of
-    // existing packages, specifying the right deployment key. If you don't already
-    // have it, you can run "code-push deployment ls <appName> -k" to retrieve your key.
-    return Arrays.<ReactPackage>asList(
-            new MainReactPackage(),
-            new CodePush("deployment-key-here", MainApplication.this, BuildConfig.DEBUG)
-    );
-  }
-};
+  
 }

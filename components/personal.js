@@ -27,8 +27,13 @@ export default class Personal extends Component {
 		title: 'Personal Information'
 	};
 
+	constructor(props: Object){
+		super(props);
+	}
+
 	render(){
-		return <Wizard rank={this.props.rank} navigation={this.props.navigation} >
+		return <Wizard rank={this.props.rank} navigation={this.props.navigation} style={{justifyContent: 'flex-start'}} >
+			<View style={styles.column}>
 			<Text style={styles.label}>What Province do you live in ?</Text>
 			<View style={styles.row}>
 				<TextInput style={styles.input} placeholder={'Type a location'} autoFocus={true} disableFullscreenUI={true} />
@@ -37,17 +42,23 @@ export default class Personal extends Component {
 			<View style={styles.row}>
 				<TextInput style={styles.input} placeholder={'Type your favorite career'} disableFullscreenUI={true} />
 			</View>
+			</View>
 		</Wizard>
 	}
 };
 // base font size
 const em = 16;
 const styles = StyleSheet.create({
+	column: {
+		flex: 1,
+		justifyContent: 'flex-start',
+		paddingTop: 16
+	},
 	row: {
 		flex: 1,
 		flexDirection: 'row',
 		alignItems: 'flex-start',
-		justifyContent: 'space-between',
+		justifyContent: 'space-around',
 		margin: 8,
 		marginTop: 10
 	},

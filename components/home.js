@@ -26,7 +26,7 @@ export default class Home extends Component {
 	};
 
 	next = () => {
-		this.props.navigation.navigate('Personal');
+		this.props.navigation.navigate('Personal', {previousScreen: 'Home'});
 	}
 
 	render(){

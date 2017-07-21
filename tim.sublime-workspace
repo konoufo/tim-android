@@ -4,6 +4,122 @@
 		"selected_items":
 		[
 			[
+				"paddig",
+				"paddingBottom"
+			],
+			[
+				"_",
+				"_keyExtractor"
+			],
+			[
+				"select",
+				"selectedSubject"
+			],
+			[
+				"T",
+				"TouchableNativeFeedback"
+			],
+			[
+				"grade",
+				"gradedSubjects"
+			],
+			[
+				"padding",
+				"paddingBottom"
+			],
+			[
+				"auto",
+				"autocompleteInput"
+			],
+			[
+				"margin",
+				"marginLeft"
+			],
+			[
+				"sty",
+				"styles"
+			],
+			[
+				"paddin",
+				"paddingTop"
+			],
+			[
+				"a",
+				"autocomplete"
+			],
+			[
+				"Fla",
+				"FlatButton"
+			],
+			[
+				"flex",
+				"flexDirection"
+			],
+			[
+				"col",
+				"column"
+			],
+			[
+				"Style",
+				"StyleSheet\tFlow CSSOM type"
+			],
+			[
+				"Sty",
+				"CSSStyleSheet\tFlow CSSOM type"
+			],
+			[
+				"S",
+				"SubjectItem"
+			],
+			[
+				"navigation",
+				"navigationFuncs"
+			],
+			[
+				"Ra",
+				"RaisedTextButton"
+			],
+			[
+				"re",
+				"return"
+			],
+			[
+				"st",
+				"style"
+			],
+			[
+				"s",
+				"style"
+			],
+			[
+				"react",
+				"react-native"
+			],
+			[
+				"navi",
+				"navigateToFirstStep"
+			],
+			[
+				"nav",
+				"navigation"
+			],
+			[
+				"fun",
+				"Function\tFlow core type"
+			],
+			[
+				"ReactC",
+				"ReactComponent\tFlow React type"
+			],
+			[
+				"A",
+				"Array\tFlow core type"
+			],
+			[
+				"bool",
+				"boolean\tFlow built-in type"
+			],
+			[
 				"to",
 				"toWho"
 			],
@@ -24,10 +140,6 @@
 				"buzzerButton"
 			],
 			[
-				"st",
-				"style	Tag"
-			],
-			[
 				"sele",
 				"selected"
 			],
@@ -41,7 +153,7 @@
 			],
 			[
 				"opt",
-				"option	Tag"
+				"option\tTag"
 			],
 			[
 				"rad",
@@ -64,24 +176,8 @@
 				"bixies"
 			],
 			[
-				"re",
-				"require"
-			],
-			[
-				"S",
-				"StationSchema"
-			],
-			[
 				"res",
 				"results"
-			],
-			[
-				"a",
-				"accidentReports"
-			],
-			[
-				"A",
-				"AccidentReports"
 			],
 			[
 				"d",
@@ -136,12 +232,8 @@
 				"geocodeAccidents"
 			],
 			[
-				"s",
-				"style	Attr"
-			],
-			[
 				"c",
-				"class	Attr"
+				"class\tAttr"
 			],
 			[
 				"bo",
@@ -214,10 +306,6 @@
 			[
 				"pa",
 				"padding"
-			],
-			[
-				"col",
-				"col-12"
 			],
 			[
 				"font",
@@ -302,10 +390,6 @@
 			[
 				"_setC",
 				"_setCurrentFormData"
-			],
-			[
-				"_",
-				"_userPermissionLevel"
 			],
 			[
 				"rev",
@@ -430,90 +514,6 @@
 			[
 				"cl",
 				"className"
-			],
-			[
-				"Pr",
-				"ProfileSettings"
-			],
-			[
-				"userS",
-				"userSinceIcon"
-			],
-			[
-				"user",
-				"userSinceIcon"
-			],
-			[
-				"sty",
-				"style"
-			],
-			[
-				"roo",
-				"root"
-			],
-			[
-				"margin",
-				"marginBottom"
-			],
-			[
-				"nex",
-				"nextStep"
-			],
-			[
-				"social",
-				"socialButtonLabel"
-			],
-			[
-				"soci",
-				"socialButton"
-			],
-			[
-				"_han",
-				"_handleCustomer"
-			],
-			[
-				"home",
-				"homeButton"
-			],
-			[
-				"Re",
-				"Register"
-			],
-			[
-				"bl",
-				"blue200"
-			],
-			[
-				"lab",
-				"labelStyle"
-			],
-			[
-				"lable",
-				"label"
-			],
-			[
-				"he",
-				"header"
-			],
-			[
-				"h",
-				"h4"
-			],
-			[
-				"Ta",
-				"Tab"
-			],
-			[
-				"o",
-				"object"
-			],
-			[
-				"action",
-				"actionSection"
-			],
-			[
-				"item",
-				"itemsList"
 			]
 		]
 	},
@@ -523,7 +523,8 @@
 			"file": "index.android.js",
 			"settings":
 			{
-				"buffer_size": 1036,
+				"buffer_size": 1752,
+				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
 		},
@@ -531,25 +532,36 @@
 			"file": "components/wizard.js",
 			"settings":
 			{
-				"buffer_size": 130,
-				"line_ending": "Windows",
-				"name": "/* @flow */"
+				"buffer_size": 2458,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "package.json",
+			"file": "components/home.js",
 			"settings":
 			{
-				"buffer_size": 700,
-				"line_ending": "Unix"
+				"buffer_size": 1138,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": ".flowconfig",
+			"file": "components/personal.js",
 			"settings":
 			{
-				"buffer_size": 1385,
-				"line_ending": "Unix"
+				"buffer_size": 1587,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "components/requirements.js",
+			"settings":
+			{
+				"buffer_size": 7672,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
 			}
 		}
 	],
@@ -591,23 +603,39 @@
 	"expanded_folders":
 	[
 		"/C/Users/konoufo/Downloads/thekeep/Jobs/projects/android/tim",
-		"/C/Users/konoufo/Downloads/thekeep/Jobs/projects/android/tim/node_modules/.bin"
+		"/C/Users/konoufo/Downloads/thekeep/Jobs/projects/android/tim/android",
+		"/C/Users/konoufo/Downloads/thekeep/Jobs/projects/android/tim/android/app",
+		"/C/Users/konoufo/Downloads/thekeep/Jobs/projects/android/tim/android/app/src",
+		"/C/Users/konoufo/Downloads/thekeep/Jobs/projects/android/tim/android/app/src/main",
+		"/C/Users/konoufo/Downloads/thekeep/Jobs/projects/android/tim/android/app/src/main/java",
+		"/C/Users/konoufo/Downloads/thekeep/Jobs/projects/android/tim/android/app/src/main/java/com",
+		"/C/Users/konoufo/Downloads/thekeep/Jobs/projects/android/tim/android/app/src/main/java/com/tim",
+		"/C/Users/konoufo/Downloads/thekeep/Jobs/projects/android/tim/components"
 	],
 	"file_history":
 	[
-		"/C/Users/konoufo/Downloads/thekeep/Jobs/projects/android/tim/tim.sublime-project",
+		"/C/Users/konoufo/Downloads/thekeep/Jobs/projects/android/tim/run.bat",
+		"/C/Users/konoufo/Downloads/thekeep/Jobs/projects/android/tim/components/hocs.js",
+		"/C/Users/konoufo/Downloads/thekeep/Jobs/projects/android/tim/components/button.js",
+		"/C/Users/konoufo/Downloads/thekeep/Jobs/projects/android/tim/components/routes.js",
+		"/C/Users/konoufo/Downloads/thekeep/Jobs/projects/android/tim/android/app/src/main/java/com/tim/MainApplication.java",
+		"/C/Users/konoufo/Downloads/thekeep/Jobs/projects/android/tim/package.json",
+		"/C/Users/konoufo/Downloads/thekeep/Jobs/projects/android/tim/.flowconfig",
+		"/C/Users/konoufo/Downloads/thekeep/Jobs/projects/android/tim/components/theme.js",
+		"/C/Users/konoufo/Downloads/thekeep/Jobs/projects/android/tim/components/wizard.js",
+		"/C/Users/konoufo/Downloads/thekeep/Jobs/projects/android/tim/android/settings.gradle",
+		"/C/Users/konoufo/Downloads/thekeep/Jobs/projects/android/tim/android/gradle.properties",
+		"/C/Users/konoufo/Downloads/thekeep/Jobs/projects/android/tim/android/build.gradle",
+		"/C/Users/konoufo/Downloads/thekeep/Jobs/projects/android/tim/android/app/src/main/java/com/tim/MainActivity.java",
 		"/C/Portables/DevTools/Sublime/Data/Packages/User/FlowType.sublime-settings",
+		"/C/Users/konoufo/Downloads/thekeep/Jobs/projects/android/tim/tim.sublime-project",
 		"/C/Users/konoufo/Downloads/thekeep/Jobs/projects/android/tim/app.json",
 		"/C/Users/konoufo/Downloads/thekeep/Jobs/projects/android/tim/index.ios.js",
 		"/C/Portables/DevTools/Sublime/Data/Packages/FlowType/FlowType.sublime-settings",
 		"/C/Portables/DevTools/Sublime/Data/Packages/User/Preferences.sublime-settings",
 		"/C/Users/konoufo/Downloads/thekeep/Jobs/projects/android/tim/android/app/src/main/AndroidManifest.xml",
 		"/C/Users/konoufo/Downloads/thekeep/Jobs/projects/android/tim/android/app/src/main/res/values/strings.xml",
-		"/C/Users/konoufo/Downloads/thekeep/Jobs/projects/android/tim/android/app/src/main/java/com/tim/MainActivity.java",
-		"/C/Users/konoufo/Downloads/thekeep/Jobs/projects/android/tim/android/app/src/main/java/com/tim/MainApplication.java",
 		"/C/Users/konoufo/Downloads/thekeep/Jobs/projects/android/tim/.gitignore",
-		"/C/Users/konoufo/Downloads/thekeep/Jobs/projects/android/tim/package.json",
-		"/C/Users/konoufo/Downloads/thekeep/Jobs/projects/android/tim/.flowconfig",
 		"/C/Users/konoufo/Downloads/thekeep/Jobs/projects/android/tim/AwesomeProject/index.android.js",
 		"/C/Users/konoufo/Downloads/thekeep/Jobs/projects/android/tim/AwesomeProject/.babelrc",
 		"/C/Users/konoufo/Downloads/thekeep/Jobs/projects/android/tim/AwesomeProject/package.json",
@@ -713,16 +741,7 @@
 		"/D/Airspress/Poject/backend/localization/node_modules/react-gettext-parser/lib/index.js",
 		"/D/Airspress/Poject/backend/localization/node_modules/react-gettext-parser/bin/react-gettext-parser.js",
 		"/D/Airspress/Poject/backend/localization/react-gettext-parser/lib/cli.js",
-		"/D/Airspress/Poject/backend/localization/react-gettext-parser/lib/index.js",
-		"/D/Airspress/Poject/backend/localization/react-gettext-parser/bin/react-gettext-parser.js",
-		"/D/Airspress/Poject/backend/airspress/asp_react/apps/utils_forms/input_components/geosuggest.jsx",
-		"/D/Airspress/Poject/backend/airspress/asp_react/apps/utils_subpage/full-width-section.jsx",
-		"/D/Airspress/Poject/backend/airspress/asp_react/apps/utils_style/index.jsx",
-		"/D/Airspress/Poject/backend/airspress/asp_react/apps/user_app/src/app/components/pages/message-item.jsx",
-		"/D/Airspress/Poject/backend/airspress/asp_react/apps/user_app/src/app/components/pages/wizards/wizard-master.jsx",
-		"/D/Airspress/Poject/backend/airspress/asp_react/apps/user_app/src/app/components/pages/search/index.js",
-		"/D/Airspress/Poject/backend/airspress/asp_react/apps/user_app/src/app/components/pages/search-master.jsx",
-		"/D/Airspress/Poject/backend/airspress/asp_react/apps/user_app/src/app/components/pages/notifbox.jsx"
+		"/D/Airspress/Poject/backend/localization/react-gettext-parser/lib/index.js"
 	],
 	"find":
 	{
@@ -745,6 +764,10 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			",\n",
+			"RaisedTextButton",
+			"RaisedButton",
+			"NativeButton",
 			"react-bative",
 			"bixies",
 			"this.",
@@ -759,7 +782,7 @@
 			"Δ",
 			"φ",
 			"long",
-			"					\n",
+			"\t\t\t\t\t\n",
 			"payWithCard",
 			"loAdingcom",
 			"isValidCVC",
@@ -792,7 +815,7 @@
 			"Geosuggest",
 			"Dialog",
 			"this.state.loading",
-			"	self",
+			"\tself",
 			"([ \\n\\t])self",
 			"[ \\n\\t]self",
 			" self",
@@ -868,11 +891,7 @@
 			"CustomTimeInput",
 			"Transitions",
 			"Link",
-			"react-router",
-			"getLoadingComponen",
-			"circular",
-			"orange",
-			"countriesfield"
+			"react-router"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -941,7 +960,7 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 4,
 			"sheets":
 			[
 				{
@@ -950,25 +969,25 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1036,
+						"buffer_size": 1752,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								342,
-								342
+								575,
+								575
 							]
 						],
 						"settings":
 						{
 							"syntax": "Packages/Babel/JavaScript (Babel).sublime-syntax",
-							"tab_size": 2,
+							"tab_size": 4,
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 145.0,
+						"translation.y": 272.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 1,
@@ -980,51 +999,21 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 130,
+						"buffer_size": 2458,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								130,
-								130
+								106,
+								106
 							]
 						],
 						"settings":
 						{
-							"auto_name": "/* @flow */",
-							"syntax": "Packages/Babel/JavaScript (Babel).sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "package.json",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 700,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								288,
-								288
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JSON.sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
+							"syntax": "Packages/Babel/JavaScript (Babel).sublime-syntax",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -1034,31 +1023,88 @@
 					"type": "text"
 				},
 				{
-					"buffer": 3,
-					"file": ".flowconfig",
+					"buffer": 2,
+					"file": "components/home.js",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1385,
+						"buffer_size": 1138,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								462,
-								462
+								536,
+								536
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Text/Plain text.tmLanguage"
+							"syntax": "Packages/Babel/JavaScript (Babel).sublime-syntax"
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 184.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "components/personal.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1587,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								526,
+								526
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Babel/JavaScript (Babel).sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 152.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "components/requirements.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 7672,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								7089,
+								7089
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Babel/JavaScript (Babel).sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 2612.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
 					"type": "text"
 				}
 			]
@@ -1103,7 +1149,7 @@
 	"project": "tim.sublime-project",
 	"replace":
 	{
-		"height": 42.0
+		"height": 62.0
 	},
 	"save_all_on_build": true,
 	"select_file":

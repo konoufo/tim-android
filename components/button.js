@@ -6,6 +6,7 @@ import {
   Text,
   View
 } from 'react-native';
+import type { StyleObj } from 'react-native/Libraries/StyleSheet/StyleSheetTypes';
 import {RaisedTextButton, TextButton} from 'react-native-material-buttons';
 
 
@@ -18,8 +19,8 @@ class AbstractButton extends Component {
 		title: string,
 		type?: 'primary' | 'secondary',
 		onPress: Function,
-		containerStyle?: StyleSheet,
-		style?: StyleSheet
+		containerStyle?: StyleObj,
+		style?: StyleObj
 	};
 
 	static defaultProps = {
@@ -31,7 +32,7 @@ class AbstractButton extends Component {
 	}
 
 	render(){
-		let buttonStyle = styles[this.props.type];
+		let buttonStyle = styles[this.props.type || 'primary'];
 		return React.cloneElement(this.props.children, {
 				style:this.props.containerStyle, 
 				color: buttonStyle.backgroundColor,

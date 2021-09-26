@@ -1,2 +1,2 @@
 # tim-android
-An android app (developped with React Native) to help and advise Zambian students and highschoolers in their path to university.
+An android app (developed with React Native) to help and advise Zambian students and highschoolers thru college orientation.
